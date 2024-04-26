@@ -1,0 +1,21 @@
+:root {
+	--clr-dark: #242424;
+	--clr-light: #ffffffde;
+	--clr-theme: #138baf;
+
+	--clr-text: var(--clr-light);
+	--clr-bg: var(--clr-dark);
+
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	color-scheme: light dark;
+
+	color: var(--clr-text);
+	background-color: var(--bg);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--clr-text: var(--clr-dark);
+		--clr-bg: var(--clr-light);
+	}
+}
