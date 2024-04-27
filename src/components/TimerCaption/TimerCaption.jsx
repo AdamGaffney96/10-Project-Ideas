@@ -1,15 +1,15 @@
 // Imports
 import React from "react";
-import "./TimerDigit.css";
+import "./TimerCaption.css";
 // Pages Imports
 // Component Imports
 // Element Imports
 // Other Imports
 
-export default function TimerDigit(props) {
+export default function TimerCaption(props) {
 	return (
 		<>
-			<p className="digit">{props.children}</p>
+			<div className={props.className}>{props.children}</div>
 		</>
 	);
 }

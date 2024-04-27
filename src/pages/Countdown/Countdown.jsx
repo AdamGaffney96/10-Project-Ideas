@@ -1,6 +1,7 @@
 // Imports
 import React from "react";
 import "./Countdown.css";
+import Timer from "../../components/Timer/Timer";
 // Pages Imports
 // Component Imports
 // Element Imports
@@ -10,22 +11,15 @@ export default function Countdown(props) {
 	return (
 		<>
 			<div className="content">
+				<h1>Countdown Clock</h1>
 				<div className="timer-content">
+					{/* <TimerSelector/> */}
 					<select className="timer-selector">
 						<option value="newyearsday">New Years Day</option>
 						<option value="christmas">Christmas Day</option>
 						<option value="summer">First Day of Summer</option>
 					</select>
-					<div className="timer">
-						<div className="number days">000</div>
-						<div className="number hours">00</div>
-						<div className="number minutes">00</div>
-						<div className="number seconds">00</div>
-						<div className="caption days-caption">days</div>
-						<div className="caption hours-caption">hours</div>
-						<div className="caption minutes-caption">minutes</div>
-						<div className="caption seconds-caption">seconds</div>
-					</div>
+					<Timer />
 				</div>
 			</div>
 		</>
