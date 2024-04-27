@@ -7,6 +7,32 @@
 
 .movie-poster {
 	width: 100%;
+	position: relative;
+}
+
+.movie-tagline {
+	position: absolute;
+	font-size: 1.2rem;
+	line-height: 2.3rem;
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	background-color: var(--clr-dark);
+	padding: 0 0.2rem;
+	transition: height 0.3s;
+	text-align: center;
+	overflow: hidden;
+}
+
+.movie-tagline p {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.movie-poster:hover .movie-tagline {
+	opacity: 0.9;
+	height: 100%;
 }
 
 .movie-title {

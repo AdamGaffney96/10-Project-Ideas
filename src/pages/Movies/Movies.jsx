@@ -47,6 +47,7 @@ export default function Movies(props) {
 			<Movie
 				poster={`${baseLink}${movie.poster_path}`}
 				title={movie.title}
+				overview={movie.overview}
 				key={movies.indexOf(movie)}
 			></Movie>
 		);
