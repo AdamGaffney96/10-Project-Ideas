@@ -1,10 +1,12 @@
 :root {
 	--clr-dark: #242424;
+	--clr-grey: #464646;
 	--clr-light: #ffffffde;
 	--clr-theme: #138baf;
 
 	--clr-text: var(--clr-light);
 	--clr-bg: var(--clr-dark);
+	--clr-shadow: var(--clr-grey);
 
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	color-scheme: light dark;

@@ -16,11 +16,13 @@ export default function Header() {
 						<Link to="/">Home</Link>
 					</li>
 					<li>
-						<Link to="games">Games</Link>
+						<Link to="movies">Movies</Link>
 					</li>
 				</ul>
 			</nav>
-			<Outlet />
+			<main>
+				<Outlet />
+			</main>
 		</>
 	);
 }

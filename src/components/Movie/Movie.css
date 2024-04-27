@@ -1,0 +1,20 @@
+.movie-wrapper {
+	display: grid;
+	place-items: start center;
+	background-color: var(--clr-theme);
+	box-shadow: 0 0 1em 0.1em var(--clr-grey);
+}
+
+.movie-poster {
+	width: 100%;
+}
+
+.movie-title {
+	color: var(--clr-text);
+	margin: 0;
+	padding: 1em;
+	font-size: 1.3rem;
+	text-align: center;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
