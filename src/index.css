@@ -9,7 +9,7 @@
 	--clr-shadow: var(--clr-grey);
 
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-	color-scheme: light dark;
+	color-scheme: dark light;
 
 	color: var(--clr-text);
 	background-color: var(--bg);
@@ -20,4 +20,8 @@
 		--clr-text: var(--clr-dark);
 		--clr-bg: var(--clr-light);
 	}
+}
+
+#root {
+	min-height: 100vh;
 }
